@@ -143,49 +143,53 @@
             <button type="submit" class="btn btn-primary">送出</button>
         </form>
     </div>
-    <table class="table table-striped table-bordered table-hover">
-        <thead class="table-info text-center">
-            <tr>
-                <th>課程編號</th>
-                <th colspan="2">課程名稱</th>
-                <th>課程內容</th>
-            </tr>
-        </thead>
-        <tbody>
-            <!--表格的內容-->
-            <tr>
-                <th scope="row" class="text-center">001</th>
-                <td>程式設計基礎班(3H)</td>
-                <td align="center"><button type="button" class="btn btn-outline-primary">報名</button>
-                </td>
-                <td>使用C語言撰寫簡易程式，培養學員邏輯思考能力，並從中培養興趣。</td>
-            </tr>
-            <tr>
-                <th scope="row" class="text-center">002</th>
-                <td class="table-danger">(即將額滿)網頁開發講座(1.5H)</td>
-                <td align="center"><button type="button" class="btn btn-outline-primary">報名</button>
-                </td>
-                <td>邀請業界知名講師來本班分享從學習到就業的過程，以及求職面試的技巧。</td>
-            </tr>
-            <tr>
-                <th scope="row" class="text-center">003</th>
-                <td>程式設計進階班(3H)</td>
-                <td align="center"><button type="button" class="btn btn-outline-primary">報名</button>
-                </td>
-                <td>使用Python爬蟲技術處理不同網站的爬法。</td>
-            </tr>
-            <tr>
-                <th scope="row" class="text-center">004</th>
-                <td>職涯規劃(1H)</td>
-                <td align="center"><button type="button" class="btn btn-outline-primary">報名</button>
-                </td>
-                <td>如何將本班所學的技能應用在職場上，激發學員對人生規劃的想法。</td>
-            </tr>
-        </tbody>
-    </table>
-    <p class="card-title" style="text-decoration: underline;text-align: center;" >*此網站為教學練習之用途。</p>
+    <div class="m-5">
+        <table class="table table-striped table-bordered table-hover">
+            <thead class="table-info text-center">
+                <tr>
+                    <th>課程編號</th>
+                    <th colspan="2">課程名稱</th>
+                    <th>課程內容</th>
+                </tr>
+            </thead>
+            <tbody>
+                <!--表格的內容-->
+                <tr>
+                    <th scope="row" class="text-center">001</th>
+                    <td>程式設計基礎班(3H)</td>
+                    <td align="center"><button type="button" class="btn btn-outline-primary">報名</button>
+                    </td>
+                    <td>使用C語言撰寫簡易程式，培養學員邏輯思考能力，並從中培養興趣。</td>
+                </tr>
+                <tr>
+                    <th scope="row" class="text-center">002</th>
+                    <td class="table-danger">(即將額滿)網頁開發講座(1.5H)</td>
+                    <td align="center"><button type="button" class="btn btn-outline-primary">報名</button>
+                    </td>
+                    <td>邀請業界知名講師來本班分享從學習到就業的過程，以及求職面試的技巧。</td>
+                </tr>
+                <tr>
+                    <th scope="row" class="text-center">003</th>
+                    <td>程式設計進階班(3H)</td>
+                    <td align="center"><button type="button" class="btn btn-outline-primary">報名</button>
+                    </td>
+                    <td>使用Python爬蟲技術處理不同網站的爬法。</td>
+                </tr>
+                <tr>
+                    <th scope="row" class="text-center">004</th>
+                    <td>職涯規劃(1H)</td>
+                    <td align="center"><button type="button" class="btn btn-outline-primary">報名</button>
+                    </td>
+                    <td>如何將本班所學的技能應用在職場上，激發學員對人生規劃的想法。</td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+    <p class="card-title" style="text-decoration: underline;text-align: center;">*此網站為教學練習之用途。</p>
     <!-- Back to Top -->
-    <a class="gotop" onclick="GoTop()"><font color="white">Top</font></a>
+    <a class="gotop" onclick="GoTop()">
+        <font color="white">Top</font>
+    </a>
     <script>
         function GoTop() {
             $("html,body").animate({
